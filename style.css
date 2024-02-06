@@ -1,21 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
-    --roxo-mais-escuro: #10002B;
-    --roxo-medio: #7B2CBF;
-    --roxo-mais-claro: #E0AAFF;
+    --VioletaInglesa-mais-escuro: #59415B;
+    --Quinacriadone-magente-medio: #84415F;
+    --Cereja-mais-claro: #DA4167;
+    --lilas-acinzentado: #E0DFDF;
     --preto: #000000;
-    --branco: #FFFFFF;
+    --branco: hwb(0 60% 23%);
 }
 
 * {
-    margin: 0;
+    margin:  0;
     padding: 0;
 }
 
 body {
     font-family: 'DM Sans', Arial, Helvetica, sans-serif;
-    color: var(--roxo-mais-escuro);
+    color: var(--VioletaInglesa-mais-escuro);
 }
 
 .topo {
@@ -32,6 +33,7 @@ body {
 ul {
     display: flex;
     align-items: center;
+    background-color: var(--lilas-acinzentado);
 }
 
 li {
@@ -53,8 +55,7 @@ a {
 
 .botao-primario {
     font-weight: bold;
-    background-color: var(--roxo-medio);
-    color: var(--branco);
+    background-color: var(--lilas-acinzentado);
     text-align: center;
     padding: 14px 26px;
     transition: opacity 0.6s ease;
@@ -109,6 +110,7 @@ h1 {
     justify-content: center;
     align-items: center;
     padding: 40px 0;
+    background-color: var(--lilas-acinzentado);
 }
 
 .produtos {
@@ -116,6 +118,7 @@ h1 {
     justify-content: space-around;
     width: 100%;
     padding-top: 50px;
+
 }
 
 .produtos .botao-primario {
@@ -199,6 +202,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: start;
+    background-color: var(--lilas-acinzentado);
 }
 
 #sobre-nos .esquerda {
@@ -224,7 +228,6 @@ h3 {
 
 footer {
     background-color: var(--roxo-medio);
-    color: var(--branco);
     padding: 40px 0;
     display: flex;
     justify-content: space-around;
